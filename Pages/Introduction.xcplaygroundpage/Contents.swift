@@ -3,7 +3,7 @@
 /*:
 # Functional Swift
 
-Harish Yarlagadda
+Harish Yarlagadda - Swift, Scala, Java, ObjectiveC
 
 [@harish_yar](http://www.twitter.com/harish_yar)
 
@@ -13,6 +13,7 @@ Harish Yarlagadda
 
 [Works at DutyStatus](http://www.dutystatus.com/test)
 
+[GitHub](https://github.com/hyarlagadda)
 */
 
 //: ![Harish Pic](HarishPic.png "Harish Pic")

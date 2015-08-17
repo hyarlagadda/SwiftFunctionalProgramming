@@ -62,7 +62,9 @@ print(filteredAndSortedUser)
 print("count \(filteredAndSortedUser.count)")
 
 /*:
-[Functions Reference](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
+[Apple's Swift Higher Order reference](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
+
+[Functions Reference 1](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html#//apple_ref/doc/uid/TP40014097-CH10-ID158)
 */
 
 

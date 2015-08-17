@@ -3,7 +3,7 @@
 //: ![Safety](Safe.gif "Type Safety")
 
 /*: 
-## TypeSafey
+## Type Safey
 Swift is a type safe language. A type safe language encourages you to be clear about the types of values your code can work with. If part of your code expects a String, you can’t pass it an Int by mistake.
 
 
@@ -21,6 +21,13 @@ let meaningOfLife = 42
 
 let pi = 3.14159
 // pi is inferred to be of type Double
+
+//Can't re-assign value to pi as it is a constant
+//pi = 8.382
+
+//You can reassing value with vars. FP encourages immutability (let over var)
+var name = "iPhone OS"
+name = "iOS"
 
 /*:
 
