@@ -18,4 +18,4 @@ Harish Yarlagadda - Swift, Scala, Java, ObjectiveC
 
 //: ![Harish Pic](HarishPic.png "Harish Pic")
 
-//: [Type Safety](@next)
+//: [Functional Programming](@next)

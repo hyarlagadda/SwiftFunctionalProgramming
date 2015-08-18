@@ -45,17 +45,21 @@ class FunctionsOnCollections {
     
 }
 
+//create a object
 let functionsOnCollections = FunctionsOnCollections()
+
+//Gets total counts
 let totalUsers = functionsOnCollections.createUsers()
 print(totalUsers)
 print("number of users \(totalUsers.count)")
 
+//Get active users
 let activeUsers = functionsOnCollections.activeUsers(totalUsers)
 
 print(activeUsers)
 print("number of active user \(activeUsers.count)")
 
-
+//Print all users
 let filteredAndSortedUser = totalUsers.filter( { $0.active == true } ).sort( {$0.lastName < $1.lastName} )
 
 print(filteredAndSortedUser)

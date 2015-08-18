@@ -1,4 +1,4 @@
-//: [Introduction](@previous)
+//: [Functional Programming](@previous)
 
 //: ![Safety](Safe.gif "Type Safety")
 

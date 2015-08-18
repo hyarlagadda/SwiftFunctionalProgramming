@@ -31,6 +31,7 @@ struct Resolution {
     var width = 0
     var height = 0
 }
+
 class VideoMode {
     var resolution = Resolution()
     var interlaced = false
