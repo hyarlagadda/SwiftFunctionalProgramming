@@ -39,4 +39,42 @@ class VideoMode {
     var name: String?
 }
 
+struct PointStruct {
+    
+    var x: Int
+    var y: Int
+}
+
+var structPoint = PointStruct(x: 1, y: 2)
+var sameStructPoint = structPoint
+sameStructPoint.x = 3
+
+/*:
+
+### What are the values of structPoint and sameStructPoint after execution.
+Will 'x' value be 3 for both structPoint and sameStructPoint. Does the assignment to sameStructPoint modify the original structPoint? This is where the distinction between value types and reference types is important: when assigned to a new variable, such as sameStructPoint, value types are copied. The assignment to sameStructPoint.x does not update the original structPoint, because structs are value types. We could, instead, declare a class for points:
+*/
+
+class PointClass {
+    
+    var x: Int
+    var y: Int
+    
+    init(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
+}
+
+var classPoint = PointClass(x: 1, y: 2)
+var sameClassPoint = classPoint
+sameClassPoint.x = 3
+
+/*:
+
+### Classes are references
+Now the assignment, sameClassPoint.x, modifies both classPoint and sameClassPoint, because classes are reference types. The distinction between value types and reference types is extremely important
+
+*/
+
 //: [Higher Order Functions](@next)
